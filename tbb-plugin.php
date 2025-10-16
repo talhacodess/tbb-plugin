@@ -32,3 +32,11 @@ if ( !defined( 'TBB_PLUGIN_DIR_URL')){
 
 require_once TBB_PLUGIN_DIR_PATH . 'inc/script.php';
 require_once TBB_PLUGIN_DIR_PATH . 'inc/hook.php';
+
+//Register CPT 
+require_once TBB_PLUGIN_DIR_PATH .'inc/cpt.php';
+//Register Taxonomy
+require_once TBB_PLUGIN_DIR_PATH .'inc/taxonomy.php';
+
+//Register Meta Box
+require_once TBB_PLUGIN_DIR_PATH .'inc/metabox.php';
